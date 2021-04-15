@@ -49,3 +49,4 @@ module.exports = (app) => {
 
     res.json({ ok: true });
   });
+};
