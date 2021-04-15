@@ -16,7 +16,7 @@ module.exports = (app) => {
 
   app.get('/api/tables', (req, res) => res.json(tableData));
 
-  app.get('/api/waitinglist', (req, res) => res.json(waitListData));
+  app.get('/api/waitlist', (req, res) => res.json(waitListData));
 
   // API POST Requests
   // Below code handles when a user submits a form and thus submits data to the server.
